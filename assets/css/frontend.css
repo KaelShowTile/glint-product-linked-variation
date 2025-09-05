@@ -1,0 +1,33 @@
+.glint-variation-options .glint-option{
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+.glint-variation-options .glint-option.glint-option-active{
+    border-color: #333;
+}
+
+.glint-variation-options .glint-option .glint-option-value{
+    color: #ccc;
+}
+
+.glint-variation-options .glint-option.glint-option-active .glint-option-value{
+    color: #333;
+}
+
+.glint-variation-options .glint-option img{
+    width: 55px;
+    height: 55px;
+    margin: 0 6px 0 -6px;
+    opacity: 0.5;
+}
+
+.glint-variation-options .glint-option.glint-option-active img{
+    opacity: 1;
+}
+
+.glint-variation-options .glint-option.glint-option-disabled{
+    text-decoration: line-through;
+    color: #aaa;
+}

@@ -1,0 +1,62 @@
+.glint-product-tag,
+.glint-attr-tag {
+    display: inline-block;
+    background: #f1f1f1;
+    padding: 3px 8px;
+    margin: 2px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.glint-delete-link {
+    color: #a00;
+}
+
+.glint-delete-link:hover {
+    color: #dc3232;
+}
+
+.select2-container--default .select2-selection--multiple {
+    min-height: 32px;
+    border-color: #8c8f94;
+}
+
+.form-table .glp-attribute fieldset label{
+    margin-right: 20px !important;
+}
+
+.form-table .glp-attribute fieldset label input{
+    margin: 0;
+}
+
+.glp-buttons{
+    margin: 20px 0 40px; 
+}
+
+.glp-buttons p.submit{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+
+td.glp-table-btns .button{
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    vertical-align: unset;
+}
+
+.plugin-explaination{
+    padding: 10px;
+    background: #f5f5f5;
+    margin: 5px 0 40px;
+}
+
+.plugin-explaination h4{
+    margin: 0 0 5px;
+    color: #aaa;
+}
+
+.plugin-explaination p{
+    margin: 0;
+    color: #aaa;
+}
