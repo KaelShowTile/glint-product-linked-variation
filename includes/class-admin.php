@@ -73,7 +73,7 @@ class Glint_Linked_Variation_Admin {
             <div class="plugin-explaination">
                 <h4>Usage:</h4>
                 <p>Shortcode: [gto_linked_product product_id="123"]</p>
-                <p>PHP: display_linked_product($product_id);</p>
+                <p>PHP: <b>echo</b> display_linked_product($product_id);</p>
             </div>
             
             <form method="post" action="<?php echo admin_url('admin-post.php'); ?>">
