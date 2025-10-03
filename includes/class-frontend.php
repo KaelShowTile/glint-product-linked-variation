@@ -120,7 +120,7 @@ class Glint_Linked_Variation_Frontend {
                         ?>
                             <li class="glint-option<?php echo $is_current ? ' glint-option-active' : ''; ?><?php echo !$is_selectable ? ' glint-option-disabled' : ''; ?>">
                                 <?php if ($is_current) : ?>
-                                    <?php if ($attribute === 'colour' && $thumbnail) : ?>
+                                    <?php if (($attribute === 'colour' || $attribute === 'colours') && $thumbnail) : ?>
                                         <?php echo $thumbnail; ?>
                                     <?php endif; ?>
                                     <span class="glint-option-value"><?php echo esc_html($value); ?></span>
@@ -133,13 +133,13 @@ class Glint_Linked_Variation_Frontend {
                                     );
                                 ?>
                                     <a href="<?php echo esc_url($products_data[$linked_product_id]['permalink']); ?>" class="glint-option-value" title="<?php echo esc_attr($products_data[$linked_product_id]['name']); ?>">
-                                        <?php if ($attribute === 'colour' && $thumbnail) : ?>
+                                        <?php if (($attribute === 'colour' || $attribute === 'colours') && $thumbnail) : ?>
                                             <?php echo $thumbnail; ?>
                                         <?php endif; ?>
                                         <span class="glint-option-value"><?php echo esc_html($value); ?></span>
                                     </a>
                                 <?php else : ?>
-                                    <?php if ($attribute === 'colour' && $thumbnail) : ?>
+                                    <?php if (($attribute === 'colour' || $attribute === 'colours') && $thumbnail) : ?>
                                         <?php echo $thumbnail; ?>
                                     <?php endif; ?>
                                     <span class="glint-option-value"><?php echo esc_html($value); ?></span>
