@@ -102,7 +102,7 @@ class Glint_Linked_Variation_Frontend {
                             
                             // Get the correct thumbnail for color attribute
                             $thumbnail = '';
-                            if ($attribute === 'colour') {
+                            if ($attribute === 'colour' || $attribute === 'colours' ) {
                                 if ($is_current) {
                                     $thumbnail = $products_data[$product_id]['thumbnail'];
                                 } elseif ($is_selectable) {

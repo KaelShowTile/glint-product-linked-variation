@@ -5,11 +5,8 @@ class Glint_Linked_Variation_Ajax {
     }
 
     public function search_products() {
-        error_log('ajax handle reached...');
 
         check_ajax_referer('glint-linked-nonce', 'nonce');
-
-        error_log('Nonce check passed...');
 
         $search = sanitize_text_field($_GET['q']);
         $args = [
